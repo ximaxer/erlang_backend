@@ -31,6 +31,38 @@ During an ongoing game, the player wants to Open a box (let say this is action c
     ```
 3. The clients will now parse the message, splitting it by "|", for which they'll know which action to execute, in what region, who executes the action and which box they're interacting with.
 
+## Erlang commands
+
+If the user decides to wipe their game files from erlang's database **Mnesia**, run:
+
+```erlang
+localDB:db_wipe_games().
+```
+
+If the user decides to wipe their game logs after exporting them, run:
+
+```erlang
+localDB:db_wipe_logs().
+```
+
+If the user wants to export their current logs to the file specified on the configuration, run:
+
+```erlang
+localDB:export_logs().
+```
+
+To see every server and process running inside the erlang console run:
+
+```erlang
+global:registered_names().
+```
+
+To stop the console run:
+
+```erlang
+halt().
+```
+
 ## Observations:
 
 The game servers consist of small servers each holding up to the configurated max\_players\_per\_game, these are saved and handled on a dictionary, for which /leave\_game removes them from the dictionary, while /disconnect just makes them offline.
