@@ -35,14 +35,14 @@ Otherwise the following responses will be given:
         "Error": "This game no longer exists."
     }
     ```
-2.  &#x20;<mark style="color:red;">400 Bad Request</mark>,
+2.  <mark style="color:red;">400 Bad Request</mark>,
 
     ```json
     {
         "Error": "Invalid or missing parameter"
     }
     ```
-3.  <mark style="color:red;">400 Bad Request</mark>, &#x20;
+3.  <mark style="color:red;">400 Bad Request</mark>,
 
     ```json
     {

@@ -49,8 +49,6 @@ The configuration file is named **gateway.app.src**, and the values which the us
 ]},
 ```
 
-&#x20;
-
 ## Build
 
 To compile and run the server, head to the root folder of the project (the one containing rebar.config) and run the following commands:

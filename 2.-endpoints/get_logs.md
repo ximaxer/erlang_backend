@@ -27,14 +27,14 @@ Considering the game had logs stored, which come from /broadcast, the response w
 
 Otherwise the following responses will be given:
 
-1.  &#x20;<mark style="color:red;">400 Bad Request</mark>,
+1.  <mark style="color:red;">400 Bad Request</mark>,
 
     ```json
     {
         "Error": "Invalid or missing parameter"
     }
     ```
-2.  <mark style="color:red;">400 Bad Request</mark>, &#x20;
+2.  <mark style="color:red;">400 Bad Request</mark>,
 
     ```json
     {

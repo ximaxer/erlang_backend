@@ -1,10 +1,10 @@
 # Table of contents
 
-## 1. User Guide
+## User Guide
 
 * [Setup](README.md)
-* [User Guide](1.-user-guide/user-guide.md)
-* [Server Side Broadcasts](1.-user-guide/server-side-broadcasts.md)
+* [User Guide](user-guide/user-guide.md)
+* [Server Side Broadcasts](user-guide/server-side-broadcasts.md)
 
 ## 2. Endpoints
 

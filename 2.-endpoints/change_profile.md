@@ -40,7 +40,7 @@ Otherwise the following responses will be given:
         "Error": "Not part of this game"
     }
     ```
-3.  &#x20;<mark style="color:red;">400 Bad Request</mark>,
+3.  <mark style="color:red;">400 Bad Request</mark>,
 
     ```json
     {

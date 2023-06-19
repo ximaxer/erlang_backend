@@ -44,7 +44,7 @@ Otherwise the following responses will be given:
         "Error": "The desired game is already full."
     }
     ```
-3.  &#x20;<mark style="color:red;">400 Bad Request</mark>,
+3.  <mark style="color:red;">400 Bad Request</mark>,
 
     ```json
     {

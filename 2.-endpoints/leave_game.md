@@ -31,7 +31,7 @@ Otherwise the following responses will be given:
         "Error": "This game no longer exists."
     }
     ```
-2.  &#x20;<mark style="color:red;">400 Bad Request</mark>,
+2.  <mark style="color:red;">400 Bad Request</mark>,
 
     ```json
     {

@@ -24,7 +24,7 @@ In case of success, the reply is a <mark style="color:green;">200 OK</mark>, wit
 
 Otherwise the following response will be given:
 
-1.  &#x20;<mark style="color:red;">400 Bad Request</mark>,
+1.  <mark style="color:red;">400 Bad Request</mark>,
 
     ```json
     {
