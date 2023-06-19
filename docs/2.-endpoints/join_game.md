@@ -39,7 +39,7 @@ Otherwise the following responses will be given:
     ```
 2.  <mark style="color:red;">400 Bad Request</mark>,
 
-    ```json
+    ```
     {
         "Error": "The desired game is already full."
     }
