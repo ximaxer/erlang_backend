@@ -1,0 +1,6 @@
+cd("C:/Users/ximax/Desktop/college_gomin/MEI/dissertacao_licinio/s4p_backend_erl/src").
+
+c(sessionUtils).
+c(localDB).
+c(mqttMessenger).
+c(gameSession).

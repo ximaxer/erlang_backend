@@ -1,0 +1,25 @@
+{application, gateway,
+ [
+  {description, ""},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { gateway_app, []}},
+  {applications, [
+                  kernel,
+                  stdlib,
+		          cowboy,
+                  jsone
+                 ]},
+  {env, [
+      {http_port, 9003},
+      {max_players_per_game, 4},
+      {mqtt_broker_address, "s4play.dei.uc.pt"},
+      {mqtt_broker_port, 9005},
+      {topic_root, "s4p/"},
+      {heartbeat_interval, 29500},  %% this value is in milliseconds
+      {log_file_path, "../data.csv"}
+  ]},
+  {modules, []},
+  {licenses, ["Apache-2.0"]},
+  {links, []}
+ ]}.
