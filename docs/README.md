@@ -40,12 +40,12 @@ The configuration file is named **gateway.app.src**, and the values which the us
 {env, [
       {http_port, 9003}, % numerical value, defines the port for the requests
       {max_players_per_game, 4}, % numerical value defines max players per game
-      {mqtt_broker_address, "s4play.dei.uc.pt"}, % string value, this is the ip of your mqtt broker
+      {mqtt_broker_address, "my.broker.url"}, % string value, this is the ip or url of your mqtt broker
       {mqtt_broker_port, 9005}, % numerical value, this is the port in which your broker is running (can be ws or IoT port)
-      {topic_root, "s4p/"}, % string value, it defines the root directory of your mqtt topic
+      {topic_root, "my_game/"}, % string value, it defines the root directory of your mqtt topic
       {heartbeat_interval, 29500}, % numeric value, represents the delay in milliseconds
       % optional:
-      {log_file_path, "../data.csv"} % string value, this is the path to the document which is created when logs are exported
+      {log_file_path, "../log_data.csv"} % string value, this is the path to the document which is created when logs are exported
 ]},
 ```
 
