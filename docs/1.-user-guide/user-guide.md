@@ -51,6 +51,12 @@ If the user wants to export their current logs to the file specified on the conf
 localDB:export_logs().
 ```
 
+If they want a fraction of the logs between two dates with the \[dd/mm/yyyy] format:
+
+```erlang
+localDB:export_logs_between_two_dates("13/09/2023","15/09/2023")
+```
+
 To see every server and process running inside the erlang console run:
 
 ```erlang

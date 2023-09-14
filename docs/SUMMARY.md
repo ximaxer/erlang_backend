@@ -8,6 +8,7 @@
 
 ## 2. Endpoints
 
+* [/games\_list](2.-endpoints/games\_list.md)
 * [/create\_game](2.-endpoints/create\_game.md)
 * [/join\_game](2.-endpoints/join\_game.md)
 * [/change\_profile](2.-endpoints/change\_profile.md)
